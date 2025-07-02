@@ -7,7 +7,7 @@ export const Route = createFileRoute("/products/(product)/$id")({
 const products = [
   { id: "1", name: "Laptop", price: 50000, description: "A powerful laptop" },
   { id: "2", name: "Mobile", price: 30000, description: "A fast mobile" },
-  { id: "3", name: "Tablet", price: 20000, description: "A portable tablet" },
+  { id: "3", name: "Tableth", price: 20000, description: "A portable tablet" },
 ];
 
 function ProductDetailsPage() {
